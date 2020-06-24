@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-function dolar-hoje() {
+function dolarhoje() {
   req=$(curl -ss "https://api.exchangeratesapi.io/latest?base=USD&symbols=USD,BRL")
 
   echo "Checando o preço do dólar para hoje..."
