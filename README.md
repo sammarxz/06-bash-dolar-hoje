@@ -32,13 +32,13 @@ $ cp .dolarhoje ~/
 ```
 * Open `~/.bashrc` or `~/.zshrc` using any text editor you have
 * Add the following command after the last line or anywhere you want:
-`source ~/.dolarhoje.sh`
-* Save file after adding the new line and reboot the terminal.
+`source ~/.dolarhoje`
+* Save file after adding the new line and reboot the terminal: `source .zshrc` or `source .bashrc`
 
 Now you have access to the command like this:
 
 ```
 $ dolarhoje
-$ dolarhoje 12
+$ dolarhoje 12 # convert 12 dollars to real
 ```
 
