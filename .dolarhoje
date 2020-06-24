@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+function dolar-hoje() {
+  req=$(curl -ss "https://api.exchangeratesapi.io/latest?base=USD&symbols=USD,BRL")
+
+  echo "Checando o preço do dólar para hoje..."
+
+  sleep 1s
+
+  if [ $1 ]
+    then
+      value=$1
+  else
+    value=1
+  fi
+
+  res=`echo $req | jq .rates.BRL`
+
+  total=`echo "$res * $value" | bc`
+
+  LANG=C printf "${value} USD = %.2f BRL \n" $total
+}
