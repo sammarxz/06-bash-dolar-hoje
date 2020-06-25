@@ -1,3 +1,5 @@
+![Preview od bash command](https://raw.githubusercontent.com/sammarxz/06-bash-dolar-hoje/master/Windowshot_2020-06-25_11%3A25%3A28.png)
+
 # 06-bash-dolar-hoje
 ok, I missed a few more days ... I'm sorry, it's okay. So, on this sixth and penultimate day, I decided to learn a little bash script and create a simple script that converts Dolar to Real. I receive my payments in dollars so I use a lot of services like that. And since my habitat is basically the terminal, I thought it would be useful to create a script to convert and quickly know the value of the dollar.
 
